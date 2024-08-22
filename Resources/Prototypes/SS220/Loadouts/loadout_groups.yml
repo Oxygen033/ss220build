@@ -1,4 +1,13 @@
 # InternalAffairs
+
+#ss220 iaa fix start
+- type: loadoutGroup
+  id: IAABackpacks
+  name: loadout-group-iaa-backpack
+  loadouts:
+    - IAABackpackLeather
+#ss220 iaa fix end
+
 - type: loadoutGroup
   id: IAAJumpsuit
   name: loadout-group-iaa-jumpsuit
@@ -289,6 +298,16 @@
   loadouts:
   - UniformJumpsuitSalvageSpecialist
   - SalvageSpecialistJumpsuitTurtleneck
+  - UniformJumpsuitFlannelSalvage
+
+- type: loadoutGroup
+  id: SalvageSpecialistHead
+  name: loadout-group-salvage-specialist-head
+  minLimit: 0
+  loadouts:
+  - ClothingHeadHatSalvage
+  - ClothingHeadBandSalvage
+  - ClothingHeadHatHardhatViolet
 
 # Wildcards
 
